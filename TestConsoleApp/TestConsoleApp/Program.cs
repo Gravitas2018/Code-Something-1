@@ -16,6 +16,7 @@ namespace TestConsoleApp
 
             Item testItem = new Item("Sword", "This is the sword of legends");
 
+            testItem.printItem();
 
         }
     }
