@@ -15,6 +15,9 @@ namespace CodeSomething
             Console.Read();
             
 
+            Item testItem = new Item("Sword", "This is the sword of legends");
+
+
         }
     }
 }
