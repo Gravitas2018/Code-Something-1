@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 public class Character
 {
-    public string _name { get; set; }
-    public int _level { get; set; }
+    public string name { get; set; }
+    public int level { get; set; }
     public Character(string name, int level)
     {
-        _name = name;
-        _level = level;
+        this.name = name;
+        this.level = level;
     }
 }
 

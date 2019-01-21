@@ -25,9 +25,8 @@ using System.Threading.Tasks;
         {
             Console.WriteLine("The name of the item is = " + name);
             Console.WriteLine("The description of the item is = " + description);
-
-            return "";
-   
+            Console.Read();
+        return "";
         }
 
 
