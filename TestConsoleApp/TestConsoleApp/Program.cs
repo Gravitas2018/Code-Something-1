@@ -25,12 +25,13 @@ namespace CodeSomething
 
             Sword newsword = new Sword();
 
+            LinkNode bag = new LinkNode(10);
 
+            bag.appendToTail(3);
+            bag.appendToTail(15);
+            bag.appendToTail(200);
 
-
-            
-
-
+            bag.printList();
 
         }
     }

@@ -15,7 +15,7 @@ class LinkNode
         data = passedData;
     }
 
-    void appendToTail(int passedData)
+    public void appendToTail(int passedData)
     {
         LinkNode end = new LinkNode(passedData);
         LinkNode n = this;
@@ -24,6 +24,30 @@ class LinkNode
             n = n.next;
         }
         n.next = end;
+    }
+
+    public int lengthOfList(LinkNode n)
+    {
+        int size = 0;
+        while(n != null)
+        {
+            size++;
+            n = n.next;
+        }
+
+        return size;
+
+    }
+
+    public void printList()
+    {
+        LinkNode n = this;
+        while(n.next != null)
+        {
+            Console.WriteLine("A node contains = " + n.data);
+            n = n.next;
+        }
+
     }
 
 }
