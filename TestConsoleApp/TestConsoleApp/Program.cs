@@ -6,20 +6,25 @@ using System.Threading.Tasks;
 
 namespace CodeSomething
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            Tools tools = new Tools();
+
 
             Console.WriteLine("Init Line");
             Console.Read();
             
 
             Item testItem = new Item("Sword", "This is the sword of legends");
-            Character testChar = new Character("Noob", 0);
+            Character testChar = new Character("Vyn", "Archer", 1, 10);
 
-            Console.WriteLine(testChar.name + " " + testChar.level + "\n");
+            tools.PrintChar(testChar);
             testItem.printItem();
+
+
+
 
             
 
