@@ -12,6 +12,7 @@ namespace TestConsoleApp
         {
 
             Console.WriteLine("Man it is really cold");
+            Console.Read(); //Wait before exit
         }
     }
 }
