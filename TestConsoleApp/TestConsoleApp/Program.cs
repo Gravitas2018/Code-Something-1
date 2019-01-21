@@ -14,6 +14,9 @@ namespace TestConsoleApp
             Console.WriteLine("Man it is really cold");
             Console.Read(); //Wait before exit
 
+            Item testItem = new Item("Sword", "This is the sword of legends");
+
+
         }
     }
 }
