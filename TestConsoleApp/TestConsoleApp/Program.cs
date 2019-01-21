@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestConsoleApp
+namespace CodeSomething
 {
     class Program
     {
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Man it is really cold");
-            Console.Read(); //Wait before exit
+            Console.WriteLine("Init Line");
+            Console.Read();
+            
 
         }
     }
