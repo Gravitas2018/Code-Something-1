@@ -5,7 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    class Sword
+class Sword:Item
+{
+    public Sword()
     {
-
+        inheritFromParent();
     }
+}

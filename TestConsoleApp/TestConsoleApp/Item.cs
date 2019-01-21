@@ -21,8 +21,14 @@ using System.Threading.Tasks;
             this.description = descriptionPassed;
         }
 
+        public void inheritFromParent()
+        {
+        Console.WriteLine(5 + 5 + " Don't touch this damn method");
+
+        }
 
 
 
-    }
+
+}
 

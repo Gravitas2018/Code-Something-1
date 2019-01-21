@@ -23,6 +23,8 @@ namespace CodeSomething
             tools.PrintChar(testChar);
             tools.printItem(testItem);
 
+            Sword newsword = new Sword();
+
 
 
 
