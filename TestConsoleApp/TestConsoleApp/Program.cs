@@ -21,7 +21,7 @@ namespace CodeSomething
             Character testChar = new Character("Vyn", "Archer", 1, 10);
 
             tools.PrintChar(testChar);
-            testItem.printItem();
+            tools.printItem(testItem);
 
 
 

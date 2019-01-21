@@ -15,5 +15,13 @@ public class Tools
         return "";
 
     }
+
+    public string printItem(Item item)
+    {
+        Console.WriteLine("The name of the item is: " + item.name + "\nThe description of the item is: " + item.description);
+
+        return "";
+
+    }
 }
 

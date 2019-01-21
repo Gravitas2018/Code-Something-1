@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
     public class Item
     {
-        string name;
-        string description;
+        public string name;
+        public string description;
 
         public Item()
         {
@@ -21,14 +21,7 @@ using System.Threading.Tasks;
             this.description = descriptionPassed;
         }
 
-        public string printItem()
-        {
-            Console.WriteLine("The name of the item is = " + name);
-            Console.WriteLine("The description of the item is = " + description);
 
-            return "";
-   
-        }
 
 
     }
