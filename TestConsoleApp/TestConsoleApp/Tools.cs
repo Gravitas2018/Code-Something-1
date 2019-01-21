@@ -10,7 +10,7 @@ public class Tools
     public string PrintChar(Character character)
     {
 
-        Console.Write("Name: " + character.name + "\nLevel: " + character.level + "\nClass: " + character.type + "\nInventory Space: " + character.bagSpace + "\n");
+        Console.WriteLine("Name: " + character.name + "\nLevel: " + character.level + "\nClass: " + character.type + "\nInventory Space: " + character.bagSpace + "\n");
 
         return "";
 
