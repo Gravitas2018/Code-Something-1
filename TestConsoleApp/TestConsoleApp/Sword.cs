@@ -5,10 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-class Sword:Item
+public class Sword:Item
 {
-    public Sword()
+
+    public int dps;
+
+    public Sword(int _dps, string namePassed, string descriptionPassed): base(namePassed, descriptionPassed)
     {
-        inheritFromParent();
+        this.dps = _dps;
     }
+
 }

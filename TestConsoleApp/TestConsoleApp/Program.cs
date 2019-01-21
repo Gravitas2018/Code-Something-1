@@ -23,7 +23,7 @@ namespace CodeSomething
             tools.PrintChar(testChar);
             tools.printItem(testItem);
 
-            Sword newsword = new Sword();
+            //Sword newsword = new Sword(2);
 
             LinkNode bag = new LinkNode(10);
 
@@ -32,6 +32,10 @@ namespace CodeSomething
             bag.appendToTail(200);
 
             bag.printList();
+
+            BetterInventory inventory = new BetterInventory();
+
+            inventory.Inventory();
 
         }
     }
