@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 public class Character
 {
-    public string name { get; set; }
-    public int level { get; set; }
+    public string name;
+    public int level;
     public Character(string name, int level)
     {
         this.name = name;
